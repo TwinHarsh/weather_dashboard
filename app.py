@@ -59,7 +59,8 @@ st.title("🌤️ Weather Dashboard")
 st.sidebar.title("Weather Dashboard")
 st.sidebar.markdown("Choose a city or check history")
 set_background()
-api_key = "ac14f5f23c5f6bf0bdf54a86c64dc9d0"
+api_key = st.secrets["API_KEY"]
+
 
 from history_favorites import save_search, get_search_history, add_favorite, remove_favorite, get_favorites
 
