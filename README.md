@@ -47,4 +47,4 @@ Live App: [Streamlit Cloud Link](https://weatherdashboard-djvmogdurjdvhrumubrqs6
 
 ```bash
 git clone https://github.com/TwinHarsh/weather_dashboard.git
-cd weather-dashboard
+cd weather_dashboard
